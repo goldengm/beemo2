@@ -4,11 +4,10 @@
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      Made with <i class="fa fa-heart" style="color: red;"></i> for Developers
-      &nbsp; &nbsp; &nbsp; &nbsp; 
-      <b>Version</b> 1.0
+      
+      <b>Version</b> 2.0
     </div>
-    <strong>Copyright &copy; <?php echo date('Y') ?> <a href="<?php echo url('/') ?>"><?php echo setting('company_name') ?></a>.</strong> All rights
+    <strong>Copyright &copy; <?php echo date('Y') ?> <a href="<?php echo url('/') ?>"><?php echo 'Beemo.bz' ?></a></strong> All rights
     reserved.
   </footer>
 

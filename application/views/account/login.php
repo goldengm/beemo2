@@ -4,9 +4,9 @@
   <!-- /.login-logo -->
   <div class="login-box-body">
   <div class="login-logo">
-    <a href="<?php echo url('/') ?>"><b>Admin</b> Panel</a>
+    <a href="<?php echo url('/') ?>"><b>Beemo</b> Admin Login</a>
   </div>
-    <p class="login-box-msg">Sign in to start your session</p>
+    <!--<p class="login-box-msg">Sign in to start your session</p>-->
 
     <?php if(isset($message)): ?>
       <div class="alert alert-<?php echo $message_type ?>">
@@ -23,7 +23,7 @@
 
     <form action="<?php echo url('/login/check') ?>" method="post" autocomplete="off">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Enter Username or Email..." value="<?php echo post('username') ?>" name="username" autofocus />
+        <input type="text" class="form-control" placeholder="Username" value="<?php echo post('username') ?>" name="username" autofocus />
         <span class="fa fa-user form-control-feedback"></span>
         <?php echo form_error('username', '<div class="error" style="color: red;">', '</div>'); ?>
       </div>

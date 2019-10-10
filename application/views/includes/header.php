@@ -110,9 +110,9 @@
     <!-- Logo -->
     <a href="<?php echo url('/') ?>" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>.A</span>
+      <span class="logo-mini"><b>B</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b> Panel</span>
+      <span class="logo-lg"><b>Beemo</b> Admin</span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -126,21 +126,23 @@
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          <!-- Messages: style can be found in dropdown.less-->
+          
+          <!--
           <li class="dropdown messages-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-envelope-o"></i>
               <span class="label label-success">4</span>
             </a>
+            
             <ul class="dropdown-menu">
               <li class="header">You have 4 messages</li>
               <li>
-                <!-- inner menu: contains the actual data -->
+                
                 <ul class="menu">
-                  <li><!-- start message -->
+                  <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="<?php echo userProfile(logged('id')) ?>" class="img-circle" alt="User Image">
+                        <img src="<?php //echo userProfile(logged('id')) ?>" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -149,12 +151,13 @@
                       <p>Why not buy a new awesome theme?</p>
                     </a>
                   </li>
-                  <!-- end message -->
+                  
                 </ul>
               </li>
               <li class="footer"><a href="#">See All Messages</a></li>
-            </ul>
+            </ul>            
           </li>
+          -->
           <!-- Notifications: style can be found in dropdown.less -->
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -177,6 +180,7 @@
             </ul>
           </li>
           <!-- Tasks: style can be found in dropdown.less -->
+          <!--
           <li class="dropdown tasks-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-flag-o"></i>
@@ -185,9 +189,9 @@
             <ul class="dropdown-menu">
               <li class="header">You have 9 tasks</li>
               <li>
-                <!-- inner menu: contains the actual data -->
+                
                 <ul class="menu">
-                  <li><!-- Task item -->
+                  <li>
                     <a href="#">
                       <h3>
                         Design some buttons
@@ -201,7 +205,7 @@
                       </div>
                     </a>
                   </li>
-                  <!-- end task item -->
+                  
                 </ul>
               </li>
               <li class="footer">
@@ -209,6 +213,7 @@
               </li>
             </ul>
           </li>
+          -->
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -226,6 +231,7 @@
                 </p>
               </li>
               <!-- Menu Body -->
+              <!--
               <li class="user-body">
                 <div class="row">
                   <div class="col-xs-4 text-center">
@@ -238,8 +244,9 @@
                     <a href="#">Friends</a>
                   </div>
                 </div>
-                <!-- /.row -->
               </li>
+              -->
+
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
@@ -252,9 +259,11 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
+          <!--
           <li>
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
           </li>
+          -->
         </ul>
       </div>
     </nav>
@@ -267,16 +276,19 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       <!-- Sidebar user panel -->
+      <!--
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="<?php echo userProfile(logged('id')) ?>" class="img-circle" alt="User Image">
+          <img src="<?php //echo userProfile(logged('id')) ?>" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p><?php echo logged('name') ?></p>
+          <p><?php //echo logged('name') ?></p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
+      -->
       <!-- search form -->
+      <!--
       <form action="#" method="get" class="sidebar-form" autocomplete="off">
         <div class="input-group">
           <input type="text" name="q" class="form-control search-menu-box" placeholder="Search...">
@@ -286,6 +298,7 @@
               </span>
         </div>
       </form>
+      -->
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <?php include 'nav.php' ?>
